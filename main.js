@@ -49,8 +49,8 @@ const swiper = new Swiper('.swiper-container', {
 
 //* === SCROLLREVEAL: SMOOTH SHOW OF MANY ELEMENTS DURING SCROLL === *\\
 const scrollReveal = ScrollReveal({
-  origin: 'left',
-  distance: '25px',
+  origin: 'top',
+  distance: '15px',
   duration: 850,
   reset: true
 })
@@ -78,7 +78,7 @@ function backToTop() {
 }
 
 function footerOverflow() {
-  if (window.scrollY >= 3470) {
+  if (window.scrollY >= 4195) {
     backToTopButton.classList.add('footerOverflow', )
   } else {
     backToTopButton.classList.remove('footerOverflow')
